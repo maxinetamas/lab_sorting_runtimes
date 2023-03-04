@@ -120,6 +120,29 @@ $ python3 runtimes.py --max_x=22
 and copy/paste the resulting table into this README file below this line.
 
 <!-- add the table here -->
+| 4.25e-06 | 3.52e-06 | 3.04e-06|
+| 2.77e-06 | 1.15e-05 | 1.23e-05|
+| 2.51e-06 | 1.49e-05 | 1.52e-05|
+| 3.11e-06 | 3.12e-05 | 5.11e-05|
+| 4.53e-06 | 7.58e-05 | 7.77e-05|
+| 7.74e-06 | 1.61e-04 | 1.78e-04|
+| 1.51e-05 | 3.58e-04 | 4.71e-04|
+| 2.94e-05 | 8.51e-04 | 9.57e-04|
+| 6.05e-05 | 1.80e-03 | 2.39e-03|
+| 1.32e-04 | 3.91e-03 | 5.19e-03|
+| 2.91e-04 | 8.75e-03 | 1.22e-02|
+| 6.90e-04 | 1.90e-02 | 2.45e-02|
+| 1.43e-03 | 4.14e-02 | 5.23e-02|
+| 3.20e-03 | 9.01e-02 | 1.22e-01|
+| 6.93e-03 | 1.97e-01 | 2.49e-01|
+| 1.61e-02 | 3.80e-01 | 5.08e-01|
+| 3.63e-02 | 9.18e-01 | 1.14e+00|
+| 8.25e-02 | 1.92e+00 | 2.23e+00|
+| 1.62e-01 | 3.85e+00 | 5.30e+00|
+| 4.62e-01 | 8.91e+00 | 1.16e+01|
+| 1.00e+00 | 1.82e+01 | 2.51e+01|
+| 2.24e+00 | 3.90e+01 | 5.41e+01|
+| 5.14e+00 | 8.17e+01 | 1.23e+02|
 
 You should observe that python's built-in sort function is 10-100x faster than yours.
 All functions have the same wort-case asymptotic complexity (i.e. $\Theta(n \log n)$),
