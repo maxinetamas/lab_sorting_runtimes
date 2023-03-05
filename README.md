@@ -237,8 +237,32 @@ You'll notice that you get a `NameError` because the word `FIXME` is undefined.
 Follow the instructions in the comments to provide a proper definition of `xs`,
 then rerun the command above to generate a markdown table of runtimes.
 Copy/paste the table into the README file below this line.
-
-<!-- add the table here -->
+|timsort   | quick_sorted| merge_sorted|
+|----------|-------------|-------------|
+| 3.32e-06 | 1.98e-06 | 1.86e-06|
+| 1.93e-06 | 7.12e-06 | 8.11e-06|
+| 1.90e-06 | 1.19e-05 | 1.15e-05|
+| 1.92e-06 | 2.01e-05 | 2.02e-05|
+| 2.09e-06 | 3.85e-05 | 4.10e-05|
+| 2.22e-06 | 7.76e-05 | 8.68e-05|
+| 3.18e-06 | 1.61e-04 | 1.90e-04|
+| 4.26e-06 | 3.43e-04 | 4.26e-04|
+| 6.82e-06 | 7.47e-04 | 9.51e-04|
+| 1.40e-05 | 1.56e-03 | 2.15e-03|
+| 2.21e-05 | 3.33e-03 | 4.63e-03|
+| 4.27e-05 | 7.02e-03 | 1.01e-02|
+| 8.21e-05 | 1.48e-02 | 2.22e-02|
+| 1.77e-04 | 3.15e-02 | 4.82e-02|
+| 4.01e-04 | 6.65e-02 | 8.10e-02|
+| 5.30e-04 | 8.10e-02 | 1.30e-01|
+| 9.53e-04 | 1.64e-01 | 2.62e-01|
+| 1.90e-03 | 3.55e-01 | 5.91e-01|
+| 4.16e-03 | 7.65e-01 | 1.22e+00|
+| 9.07e-03 | 1.54e+00 | 2.55e+00|
+| 3.07e-02 | 3.78e+00 | 6.14e+00|
+| 4.50e-02 | 7.53e+00 | 1.29e+01|
+| 9.46e-02 | 1.57e+01 | 2.74e+01|
+| 1.93e-01 | 3.30e+01 | 5.69e+01|
 
 You should notice that the built-in `sorted` function ran much faster on this input,
 but your `merge_sorted` and `quick_sorted` functions have essentially the same runtimes.
